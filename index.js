@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.listen(3001, () => {
-  console.log("server is up and running");
+  console.log("server is up s and running");
 });
 
 app.get("/", (req, res) => {
